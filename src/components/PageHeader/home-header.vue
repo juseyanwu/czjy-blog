@@ -22,7 +22,7 @@ const scrollToBottom = () => {
 
   if (homeElement) {
     window.scrollTo({
-      top: homeElement.offsetHeight - 90,
+      top: homeElement.offsetHeight,
       behavior: "smooth",
     });
   }
